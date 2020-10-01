@@ -107,6 +107,14 @@ if __name__=="__main__":
             except Exception as e:
                 print(e)
                 speak("sorry sir i am not able to send this email...")
+                    
+        elif "hey how are you jarvis" in query:
+            speak("I am not commited to answer this question!Can you ask me something")
+            
+        elif "open facebook" in query:
+            webbrowser.open("www.facebook.com")
+            
         elif "thank you bye" in query:
             speak("Your welcome Sir")
             break
+            
